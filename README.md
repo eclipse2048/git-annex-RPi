@@ -1,8 +1,8 @@
 git-annex-RPi
 =============
 
-The git-annex binary including the assistant, compiled for ARM hard float 
-architectute (i.e. Raspberry Pi). 
+The git-annex binary including the assistant, compiled for ARMv6 
+architecture (namely, the Raspberry Pi). 
 
 [Git-annex](http://git-annex.branchable.com/) is an awesome piece of 
 software for syncing and keeping track of files. It comes with an assistant 
