@@ -16,3 +16,6 @@ webdav.
 
 Latest version in this git: 4.20130909
 
+Install dependencies:
+
+apt-get install libgsasl7
