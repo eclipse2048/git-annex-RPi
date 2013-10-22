@@ -20,11 +20,11 @@ Install dependencies:
 
     apt-get install libgsasl7
 
-Install/Upgrade (`$GARP_PATH` and `$GARP_BIN` will be overwritten):
+Install/Upgrade (adjust `$GIT_ANNEX_PATH` and `$GIT_ANNEX_BIN` if necessary):
 
-    GARP_PATH=/opt/git-annex
-    GARP_BIN=/usr/local/bin
-    mkdir -p $GARP_PATH && cd $GARP_PATH
+    GIT_ANNEX_PATH=/opt/git-annex
+    GIT_ANNEX_BIN=/usr/local/bin
+    mkdir -p $GIT_ANNEX_PATH && cd $GIT_ANNEX_PATH
     curl -Ls  https://raw.github.com/tradloff/git-annex-RPi/master/git-annex-`curl -s https://raw.github.com/tradloff/git-annex-RPi/master/README.md | grep "Latest version" | awk '{ print $NF }'`.tar.gz | tar xvz
-    ln -sf $GARP_PATH/git-annex /usr/local/bin/git-annex
+    ln -sf $GIT_ANNEX_PATH/git-annex $GIT_ANNEX_BIN/git-annex
 
