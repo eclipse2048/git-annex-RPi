@@ -25,6 +25,6 @@ Install/Upgrade (adjust `$GIT_ANNEX_PATH` and `$GIT_ANNEX_BIN` if necessary):
     GIT_ANNEX_PATH=/opt/git-annex
     GIT_ANNEX_BIN=/usr/local/bin
     mkdir -p $GIT_ANNEX_PATH && cd $GIT_ANNEX_PATH
-    curl -Ls  https://raw.github.com/tradloff/git-annex-RPi/master/git-annex-`curl -s https://raw.github.com/tradloff/git-annex-RPi/master/README.md | grep "Latest version" | awk '{ print $NF }'`.tar.gz | tar xvz
+    curl -Ls  https://raw.github.com/tradloff/git-annex-RPi/master/git-annex-`curl -s https://raw.github.com/tradloff/git-annex-RPi/master/README.md | grep "Latest version" | grep -v curl | awk '{ print $NF }'`.tar.gz | tar xvz
     ln -sf $GIT_ANNEX_PATH/git-annex $GIT_ANNEX_BIN/git-annex
 
