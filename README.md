@@ -14,7 +14,7 @@ As of yet, the webapp will not compile on ARM due to the lack of a Haskell
 compiler that supports Template Haskell. The binary also comes without 
 webdav. 
 
-Latest version in this git: 4.20131002
+Latest version in this git: 4.20131103-gc49354b
 
 Install dependencies:
 
