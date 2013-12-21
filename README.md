@@ -14,7 +14,7 @@ As of yet, the webapp will not compile on ARM due to the lack of a Haskell
 compiler that supports Template Haskell. The binary also comes without 
 webdav. 
 
-Latest version in this git: 4.20131106 (Older versions are available in the [archive](https://github.com/tradloff/git-annex-RPi-archive).)
+Latest version in this git: 5.20131213 (Older versions are available in the [archive](https://github.com/tradloff/git-annex-RPi-archive).)
 
 Install dependencies:
 
